@@ -1,10 +1,9 @@
 
 # heading function: ----------------------------------------------------
 def makestatement(heading, decoration):
-    middle = heading
-    wrappingdeco = decoration * len(middle)
+    wrappingdeco = decoration * len(heading)
     print(wrappingdeco)
-    print(middle)
+    print(heading)
     print(wrappingdeco)
 
 # ----------------------------------------------------------------------
@@ -35,4 +34,5 @@ instructions = " [to be written] "
 makestatement("Nate’s Area/Perimeter Calculator", "=")
 print()
 instructprompt = yes_no("want the instructions? (Y/N)  ")
+
 # ----------------------------------------------------------------------
