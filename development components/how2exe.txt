@@ -4,4 +4,7 @@ from cmd
 py -m pip install pyinstaller
 
 # run it vvvvv
-py -m PyInstaller myfile.py
+py -m PyInstaller --onefile myfile.py
+
+# ico
+py -m PyInstaller --onefile --icon=ICONNAME.ico myfile.py
